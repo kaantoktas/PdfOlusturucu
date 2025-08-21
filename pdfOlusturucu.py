@@ -10,9 +10,6 @@ ctk.set_appearance_mode("System")
 ctk.set_default_color_theme("blue")  
 
 def resimden_pdf_yap(resimler, pdf_adi):
-    """
-    Belirtilen resimleri alıp tek bir PDF dosyası oluşturur.
-    """
     if not resimler:
         messagebox.showinfo("Bilgi", "Dönüştürülecek resim bulunamadı.")
         return
